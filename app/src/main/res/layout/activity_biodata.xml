@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Biodata">
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="NAMA"
+        android:textColor="#0E0D0D"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Alamat"
+        android:textColor="#FD0A0A0A"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/usia"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alamat"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#03A9F4"
+        android:text="Usia"
+        android:textColor="#E91E63"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/NAMA"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/nama"
+        android:textColor="#F80E0D0D"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ALAMAT"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NAMA"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/alamat"
+        android:textColor="#FA0A0A0A"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/UMUR"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ALAMAT"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/usia"
+        android:textColor="#E91E63"
+        android:textSize="18sp" />
+
+</RelativeLayout>
